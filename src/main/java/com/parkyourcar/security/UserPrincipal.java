@@ -45,8 +45,8 @@ public class UserPrincipal implements UserDetails {
                 user.getId(),
                 user.getName(),
                 user.getUserName(),
-                user.getEmail(),
                 user.getPassword(),
+                user.getEmail(),
                 authorities
         );
 	}
